@@ -56,22 +56,26 @@ body {
     margin: 10px 0px;
 }
 
+.icon-login{
+    justify-content: center;
+    margin: 15px -25px;
+    color: #602BF8;
+}
+
 .textfield > input {
     width: 75%;
     border: 1px solid #602BF8;
     border-radius: 32px;
     padding: 15px;
     /* background: #514869; */
-    color: #f0ffffde;
-    font-size: 12pt;
-    /* box-shadow: 0px 10px 40px #00000056; */
+    font-size: 14pt;
     outline: none;
     box-sizing: border-box;
     
 }
 
 .icon-login {
-    position:relative
+    z-index: 1;
 }
 
 .textfield > label {

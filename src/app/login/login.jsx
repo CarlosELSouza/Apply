@@ -7,7 +7,7 @@ function login(){
             <div className="card-login">
                 <h1>APPLY</h1>
                 <div className="textfield">
-                    {/* <i className="fa-solid fa-user icon-login"></i> */}
+                    <i className="fa-solid fa-user icon-login"></i>
                     <input type="text" name="usuario" placeholder="Usuário" />
                 </div>
                 <div className="textfield">
